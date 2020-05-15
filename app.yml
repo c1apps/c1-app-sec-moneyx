@@ -12,7 +12,7 @@ spec:
   - port: 8080
     name: c1-app-sec-moneyx
     targetPort: 8080
-    nodePort: 30102
+    nodePort: 30104
   selector:
     app: c1-app-sec-moneyx
 ---
